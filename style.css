@@ -55,12 +55,22 @@ section button {
   border-radius: 2rem;
   margin-bottom: 2rem;
 }
-
+.links-rx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .links-rx a {
-  margin: 0 1rem;
+  margin: 0 0.5rem;
   color: #fff;
-  background: transparent;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #fff;
+  border-radius: 50%;
 }
 
 @media (min-width: 700px) {
@@ -93,7 +103,10 @@ section button {
   }
 
   .links-rx {
-    margin-top: 2rem;
-    text-align: right;
+    margin-top: 4rem;
+  }
+
+  .links-rx {
+    justify-content: flex-end;
   }
 }
